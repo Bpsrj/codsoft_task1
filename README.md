@@ -27,8 +27,8 @@ This is my **Level 1 - Task 1** submission for the **CodSoft Web Development Int
 
 ## ✅ Tech Stack
 
-- **HTML5**  
-- **CSS3** (Pure, no frameworks used)
+- **HTML **  
+- **CSS ** (Pure, no frameworks used)
 
 ---
 
