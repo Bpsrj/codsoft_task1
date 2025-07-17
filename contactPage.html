@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contactPage.css" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <!-- Navbar Start -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="https://static.vecteezy.com/system/resources/previews/004/551/421/original/search-rainbow-color-icon-for-mobile-applications-and-web-free-vector.jpg" alt="Logo">
+      <span>Job Board</span>
+    </div>
+    <nav>
+      <a href="jobBoard.html">Home</a>
+      <a href="jobBoard.html">Browse Job</a>
+      <a href="jobBoard.html">Pages ▼</a>
+      <a href="portfolio.html">Blog</a>
+      <a href="contactPage.html">Contact</a>
+    </nav>
+    <div class="actions">
+      <button class="login-btn">Log In</button>
+      <button class="post-btn">Post A Job</button>
+    </div>
+  </div>
+  <!-- Navbar End -->
+
+  <div class="container">
+    <h2>Have any Question?</h2>
+    <p>Feel free to contact with us.</p>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="subject" placeholder="Write Subject" />
+      <textarea name="message" placeholder="Write Message" required rows="5"></textarea>
+      
+      <!-- Google reCAPTCHA widget -->
+      <div class="g-recaptcha" data-sitekey="6LfFlW4rAAAAALb01hIpfTm54bCdDlClxrnEg8rx"></div>
+      
+      <button type="submit">SEND</button>
+    </form>
+    <div id="responseMessage"></div>
+  </div>
+  <script src="contactPage.js"></script>
+</body>
+</html>
